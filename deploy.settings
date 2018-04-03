@@ -1,0 +1,7 @@
+siteUrl = https://github.com/josephdeguzman/razersdk
+gitUrl = https://github.com/josephdeguzman/razersdk.git
+version = 0.0.0
+groupId = com.razer.android
+//licenses = Apache-2.0
+id = auth-sdk
+name = auth-sdk

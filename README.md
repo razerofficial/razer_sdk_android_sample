@@ -19,13 +19,13 @@ build.gradle
 ```
 repositories {
     maven {
-        url  "https://dl.bintray.com/josephdeguzman/com.razer.android"
+        url  "https://dl.bintray.com/razer/com.razer.android"
     }
 }
  
 dependencies {
    ...
-   implementation 'com.razer.android:auth-sdk:1.0.64-dev'
+   implementation 'com.razer.android:auth-sdk:1.0.67-dev'
    ...
 }
 ```

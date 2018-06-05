@@ -21,7 +21,7 @@ android {
 }
 repositories {
     maven {
-        url "https://dl.bintray.com/josephdeguzman/com.razer.android"
+        url "https://dl.bintray.com/razer/com.razer.android"
     }
     }
 
@@ -34,5 +34,5 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    implementation 'com.razer.android:auth-sdk:1.0.64-dev'  //always watch out for the latest sdk
+    implementation 'com.razer.android:auth-sdk:1.0.67-dev'  //always watch out for the latest sdk
 }

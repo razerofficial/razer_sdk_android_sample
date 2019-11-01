@@ -25,7 +25,7 @@ repositories {
  
 dependencies {
    ...
-   implementation 'com.razer.android:auth-sdk:1.1.1'
+   implementation 'com.razer.android:auth-sdk:1.1.2'
    ...
 }
 ```

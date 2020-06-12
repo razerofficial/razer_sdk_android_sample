@@ -3,9 +3,9 @@ package com.razer.sample;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
 import android.widget.TextView;
@@ -15,13 +15,11 @@ import com.facebook.drawee.view.SimpleDraweeView;
 import com.razer.sdk.LoginManager;
 import com.razer.sdk.Token;
 import com.razer.sdk.UserAPI;
-import com.razer.sdk.UserNotLoggedException;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.File;
-import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;

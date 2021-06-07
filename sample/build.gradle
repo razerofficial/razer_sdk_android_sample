@@ -20,7 +20,11 @@ android {
 }
 repositories {
     maven {
-        url "https://dl.bintray.com/razer/com.razer.android"
+        url 'https://mymavenrepo.com/repo/fQV6PCXrR9Q1vFXRpFex/'
+        credentials {
+            username 'myMavenRepo'
+            password 'razer_read'
+        }
     }
     }
 
@@ -33,5 +37,5 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     /*androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'*/
-    implementation 'com.razer.android:auth-sdk:1.1.3'  //always watch out for the latest sdk
+    implementation 'com.razer.android:auth-sdk:1.2.0'  //always watch out for the latest sdk
 }
